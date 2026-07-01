@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | NeoClip</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <meta name="description" content="Privacy Policy for NeoClip Clipboard Manager. Learn how we secure your clipboard data.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        .doc-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 10rem 2rem 6rem;
+        }
+        .doc-card {
+            background: var(--bg-card);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 4rem 3rem;
+            box-shadow: var(--glass-shadow);
+        }
+        .doc-card h1 {
+            font-size: 2.75rem;
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.03em;
+        }
+        .last-updated {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 3rem;
+        }
+        .doc-content h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+        .doc-content p, .doc-content li {
+            color: var(--text-secondary);
+            font-size: 1.05rem;
+            line-height: 1.7;
+            margin-bottom: 1.25rem;
+        }
+        .doc-content ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="logo.png" class="logo-icon" alt="NeoClip Logo">
+                <span>NeoClip</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html#features">Features</a>
+                <a href="index.html#security">Security</a>
+                <a href="index.html#pricing">Pricing</a>
+                <a href="index.html" class="btn-primary-small">Back Home</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="doc-container">
+        <article class="doc-card">
+            <h1>Privacy Policy</h1>
+            <p class="last-updated">Last Updated: June 26, 2026</p>
+            
+            <div class="doc-content">
+                <p>At NeoClip, your privacy is our core foundation. We believe that your clipboard data, passwords, and private notes belong strictly to you. This Privacy Policy describes how we process your information when you use our browser extension and website.</p>
+
+                <h2>1. What Data We Access and Store</h2>
+                <p>Unlike traditional clipboard managers, NeoClip is designed with a <strong>Local-First</strong> architecture to protect your data:</p>
+                <ul>
+                    <li><strong>Clipboard Data:</strong> All clipboard items you copy (including text, URLs, and images) are stored locally on your device using your browser's secure sandboxed storage. We do not transmit your clipboard data to our servers, we do not operate any central database, and we cannot access your clipboard history.</li>
+                    <li><strong>Image Extraction (OCR):</strong> When you use our Image Text Finder feature, processing is handled directly through secure browser APIs. We do not collect, process, or store your images on any external servers controlled by us.</li>
+                </ul>
+
+                <h2>2. Google Drive Cloud Sync</h2>
+                <p>If you choose to purchase NeoClip Pro and enable the optional Cloud Sync feature:</p>
+                <ul>
+                    <li>NeoClip connects directly to your own personal Google Drive account.</li>
+                    <li>We request access restricted <strong>solely to the Google Drive Application Data Folder</strong> (<code>drive.appdata</code> scope). This is a hidden, app-specific directory isolated from the rest of your Google Drive files. This guarantees that our extension has absolutely no access to any of your other personal files or folders.</li>
+                    <li>The extension only reads and syncs application-specific configuration and backup files that it creates.</li>
+                    <li>Your sync data is transferred directly between your browser and Google's secure servers. It never passes through or is stored by the developer.</li>
+                </ul>
+
+                <h2>3. License Key Verification</h2>
+                <p>When you purchase a Pro plan, payment processing and billing are handled securely by our payment provider, <strong>Lemon Squeezy</strong>:</p>
+                <ul>
+                    <li>To validate Pro features, the extension sends your license key securely to our payment provider's API to verify your subscription status.</li>
+                    <li>Only your license key and an anonymized device identifier are stored securely within the browser's local sandbox and your private Google Drive app storage to maintain your premium status. No billing details, personal identifiers, or payment details are accessed or stored by the extension.</li>
+                </ul>
+
+                <h2>4. Third-Party Services</h2>
+                <p>Our extension interacts exclusively with the following trusted third-party APIs to deliver core functionalities:</p>
+                <ul>
+                    <li><strong>Google APIs:</strong> Used solely for user-initiated Google Drive authentication and database backups.</li>
+                    <li><strong>Lemon Squeezy:</strong> Used solely to process purchases and validate product license status.</li>
+                </ul>
+
+                <h2>5. Security of Your Data</h2>
+                <p>Because all your clipboard data is stored either locally on your machine or in your personal Google Drive, the security of your data depends on your device's security and your Google account settings. We recommend keeping your browser updated and using multi-factor authentication for your Google account.</p>
+
+                <h2>6. Changes to This Policy</h2>
+                <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page, and the date at the top of the page will be updated.</p>
+
+                <h2>7. Contact Us</h2>
+                <p>If you have any questions or concerns about your privacy, please contact us at <a href="mailto:worklelong@gmail.com">worklelong@gmail.com</a>.</p>
+            </div>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="logo.png" class="logo-icon" style="width:24px;height:24px;" alt="NeoClip Logo">
+                <span>NeoClip</span>
+            </div>
+            <p>© 2026 NeoClip. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+                <a href="mailto:worklelong@gmail.com">Contact</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
